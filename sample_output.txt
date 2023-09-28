@@ -1,0 +1,54 @@
+Loading MNIST digits and precomputed kNN
+Elapsed time is 0.250929 seconds.
+
+Computing thresholded similarity matrix on subsample ...
+Number of examples: 14000
+Cosine threshold: 0.750000
+Number of disconnected examples: 403
+Number of singly connected examples: 242
+Med/Mean/Max neighbors: 74 132.5 685
+Sparsity: 0.990463
+Elapsed time is 1.326327 seconds.
+
+Computing TSM for d=16 ...
+  iterate: 000  cost: 1.58236   tsec: 1.019722
+  iterate: 010  cost: 0.44226   tsec: 9.996741
+  iterate: 020  cost: 0.31301   tsec: 9.881745
+  iterate: 030  cost: 0.23376   tsec: 9.865775
+  iterate: 040  cost: 0.19306   tsec: 9.868691
+  iterate: 050  cost: 0.17521   tsec: 9.935094
+  iterate: 060  cost: 0.16569   tsec: 9.865096
+  iterate: 070  cost: 0.15968   tsec: 9.897394
+  iterate: 080  cost: 0.15612   tsec: 10.022977
+  iterate: 090  cost: 0.15352   tsec: 9.805432
+  iterate: 100  cost: 0.15121   tsec: 9.848362
+  iterate: 110  cost: 0.14927   tsec: 9.793857
+  iterate: 120  cost: 0.14760   tsec: 9.792655
+  iterate: 130  cost: 0.14609   tsec: 9.821770
+  iterate: 140  cost: 0.14471   tsec: 9.872933
+  iterate: 150  cost: 0.14347   tsec: 9.788490
+  iterate: 160  cost: 0.14233   tsec: 9.736827
+  iterate: 170  cost: 0.14128   tsec: 9.803045
+  iterate: 180  cost: 0.14031   tsec: 9.858895
+  iterate: 190  cost: 0.13941   tsec: 9.812484
+  iterate: 200  cost: 0.13856   tsec: 9.784071
+  iterate: 210  cost: 0.13778   tsec: 9.866532
+  iterate: 220  cost: 0.13704   tsec: 9.810408
+  iterate: 230  cost: 0.13634   tsec: 9.830103
+  iterate: 240  cost: 0.13569   tsec: 9.763031
+  iterate: 250  cost: 0.13507   tsec: 9.882331
+mean angular deviation on subsample: 2.473797
+jaccard index on subsample: 0.744407
+Elapsed time is 253.044254 seconds.
+
+Computing LLX for k=64 ...
+mean angular deviation on whole: 3.287657
+jaccard index on whole: 0.616600
+Elapsed time is 98.783428 seconds.
+
+Computing SVD for d=16...
+mean angular deviation on subsample: 14.334659
+jaccard index on subsample: 0.097077
+mean angular deviation on whole: 14.430912
+jaccard index on whole: 0.096727
+Elapsed time is 63.224839 seconds.
